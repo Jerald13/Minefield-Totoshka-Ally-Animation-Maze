@@ -12,15 +12,12 @@ Bug that exist:
 
 Current ways to fix it:
 1) "T" should record every available move surround itself that haven't check before. (Question mention "T" can smell any adjacent(Around itself) field has a bomb)
-   When "T" get stuck by one of the bug, "T" visualize the shortest path according to Totopath back to position that recorded avaialble move but haven't check yet. (Why? visualize the shortest path according to Totopath, because this are the path that "T" and "A" know that is safe to walk.
-   guarantee "T" was 
+   When "T" get stuck by one of the bug, "T" reverse according Totopath (walk before position) back to position that contain recorded avaialble move but haven't check yet. (Why reverse? because this are the path that "T" and "A" know that is safe to walk.)
 
 
 ![image](https://github.com/Jerald13/Minefield-Totoshka-Ally-Animation-Maze/assets/72396726/035bf0c5-4cd8-4451-87bf-71ae61704762)
 
-*If question not allow swap position*
-2a) when "T" get blocked by surround "X" and "A". "A" should reversed back position that "T" check before so that allow "T" to search for a recorded available move that haven't check before and continue at there.
-*If allow swap position* 
+*swap position* 
 2b) after swap then allow "T" continue the first method that move to haven't check position.
  
 
