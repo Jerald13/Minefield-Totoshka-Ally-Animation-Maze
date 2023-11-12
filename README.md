@@ -23,6 +23,7 @@ Current ways to fix it:
 
 There will be 2 List to record
     static List<Tuple<int, int>> totoPath = new List<Tuple<int, int>>();  <- allow reversed back and "A" follow "T"
+
     static List<Tuple<int, int>> availableMoves = new List<Tuple<int, int>>(); <- record down surround "T" have a "." 
 
 here is the priority move "T" will be moving. for cases that have 2 path and "T" have to decide one path to check. (The question did not mention "T" know the path, so i make "T" check one of the path"
