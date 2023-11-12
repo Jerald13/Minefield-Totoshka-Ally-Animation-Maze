@@ -412,7 +412,7 @@ class Program
 
         if (totoPath.Count > 0)
         {
-            if (totoPath.Count > 2 )
+            if (totoPath.Count > 2)
             {
                 maze[allyRow, allyCol] = '.';
             }
