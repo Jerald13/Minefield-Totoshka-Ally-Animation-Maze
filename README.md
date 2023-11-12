@@ -22,6 +22,7 @@ Current ways to fix it:
  
 
 There will be 2 List to record
+
     static List<Tuple<int, int>> totoPath = new List<Tuple<int, int>>();  <- allow reversed back and "A" follow "T"
 
     static List<Tuple<int, int>> availableMoves = new List<Tuple<int, int>>(); <- record down surround "T" have a "." 
