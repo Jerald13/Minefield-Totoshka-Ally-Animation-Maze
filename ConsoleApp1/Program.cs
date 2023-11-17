@@ -4,10 +4,11 @@ using System.Threading;
 
 class Program
 {
-    static int n = 5; // Rows
-    static int m = 5; // Columns
+    //Max = 20, Min = 5, Both must same
+    static int n = 20; // Rows
+    static int m = 20; // Columns
 
-    static int speed = 150; //Spped
+    static int speed = 100; //Spped
 
     static int totoRow = 0;
     static int totoCol = 0;
@@ -50,8 +51,8 @@ class Program
         Console.CursorVisible = false;
 
 
-        maze = GenerateMaze();
-        //InitializeMaze();
+        //maze = GenerateMaze();  //Random Maze
+        InitializeMaze(); //Customize Maze
 
         FindAndInitializeTotoshka();
 
